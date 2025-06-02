@@ -1,0 +1,61 @@
+
+:root {
+    --primary-color: #444552;
+    --text-color: #F6F7FE;
+    --background-color: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-on-primary { color: var(--text-color); }
+.link-on-primary:hover { color: #9093b1; }
+.link-on-primary:not(.ignore-visited):visited { color: #717382; }
+
+span.spacing {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Generic: Espaçammento e Dimensionamento */
+
+.w-005 { width: 0.5rem !important; }
+.w-01, .w-010 { width: 1rem !important; }
+.w-015 { width: 1.5rem !important; }
+.w-02, .w-020 { width: 2rem !important; }
+.w-025 { width: 2.5rem !important; }
+.w-03, .w-030 { width: 3rem !important; }
+.w-035 { width: 3.5rem !important; }
+.w-04, .w-040 { width: 4rem !important; }
+.w-045 { width: 4.5rem !important; }
+.w-05, .w-050 { width: 5rem !important; }
+
+
+.m-l-005 { margin-left: 0.5rem !important; }
+.m-l-01, .m-l-010 { margin-left: 1rem !important; }
+.m-l-015 { margin-left: 1.5rem !important; }
+.m-l-02, .m-l-020 { margin-left: 2rem !important; }
+.m-l-025 { margin-left: 2.5rem !important; }
+.m-l-03, .m-l-030 { margin-left: 3rem !important; }
+.m-l-035 { margin-left: 3.5rem !important; }
+.m-l-04, .m-l-040 { margin-left: 4rem !important; }
+.m-l-045 { margin-left: 4.5rem !important; }
+.m-l-05, .m-l-050 { margin-left: 5rem !important; }
