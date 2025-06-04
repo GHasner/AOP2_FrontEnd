@@ -36,6 +36,14 @@ span.line:not(.vertical) {
     background-color: var(--cor-primaria);
 }
 
+span.long-hyphen {
+    display: block;
+    margin-bottom: 10px;
+    width: 1rem;
+    height: 2px;
+    background-color: black;
+}
+
 .d-flex {
     display: flex;
 }
